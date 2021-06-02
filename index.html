@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hackathon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="nav_menu">
+                <ul class="menu">
+                    <li><a href="#">PolyWeb</a></li>
+                    <li><a href="#studio">О студии</a></li>
+                    <li><a href="#hackathon">О хакатоне</a></li>
+                    <li><a href="#form">Заявка</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container_info">
+            <div class="info">
+                <h1>
+                    PolyWeb Studio приглашает принять участие в хакатоне
+                </h1>
+                <p>Соревнование для программистов, дизайнеров и других специалистов из области разработки</p>
+                <div class="rectangle">
+                    <a href="#form">Подать заявку</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="studio" class="studio">
+            <h2>PolyWeb studio</h2>
+            <div class="container_studio">
+                <p>Мы – веб-студия, открытая уверенными, идейными людьми специально для Вас.</p>
+                <p>Наша студия занимается разработкой сайтов не только с продуманным интерфейсом, интересным и уникальным дизайном, но и с применением геймификации.</p>
+                <p>Молодые и дерзкие разработчики все ярче проявляют себя с каждым новым проектом, приносят креативность, реализуют свои самые лучшие и неординарные идеи, а опытные руководители контролируют процесс создания, создают гармонию.</p>
+            </div>
+        </section>
+
+        <section id="hackathon" class="hackathon">
+            <h2>Хакатон</h2>
+            <div class="container_hackathon">
+                <div class="container_hackathon_info">
+                    <p> Хакатон — форум для разработчиков, во время которого специалисты из разных областей разработки программного обеспечения сообща разрабатывают веб-сервисы (мобильные приложения, сайты, веб-приложения) для решения социально значимых задач. Обучение новому на хакатонах происходит очень быстро, и полученные знания тут же можно использовать на практике.</p><br />
+                    <p>Результатом хакатона является готовый к запуску минимальный жизнеспособный продукт – первая версия приложения, на котором можно протестировать работу идеи.</p>
+                </div>
+               
+            </div>
+        </section>
+
+        <section id="form" class="section_form">
+            <h2>Подай заявку и стань участником хакатона</h2>
+            <div class="container_form">
+                <form id="form" action="" method="get">
+
+                    <label for="first_name">Ваше имя</label>
+                        <input type="text" placeholder="Имя*" id="" name="first_name" required><br />
+                    <label for="last_name">Ваша фамилия</label>
+                        <input type="text" placeholder="Фамилия*" id="" name="last_name" required><br />
+                    <label for="patronymic">Ваше отчество</label>
+                        <input type="text" placeholder="Отчество" id="" name="patronymic"><br />
+                    <label for="date">Дата рождения</label>
+                        <input type="date" placeholder="2017-06-01" id="" name="date" required><br />
+                    <label for="phone">Введите телефон</label>
+                        <input type="tel" placeholder="Телефон*" name="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" required><br />
+                    <label for="mail">Ваша эл. почта</label>
+                        <input type="email" placeholder="E-mail*" id="login-name" name="mail" required><br />
+                   
+                    <p>Ваши навыки</p>
+                        <div class="textcols-item">
+                            <input type="checkbox" name="skill1" value="HTML"><label for="skill1">HTML</label>
+                            <input type="checkbox" name="skill2" value="CSS"><label for="skill2">CSS</label>
+                            <input type="checkbox" name="skill3" value="JS"><label for="skill3">JS</label>
+                        </div>
+                        <div class="textcols-item">
+                            <input type="checkbox" name="skill4" value="Vue"><label for="skill4">Vue</label>
+                            <input type="checkbox" name="skill5" value="React"><label for="skill5">React</label>
+                            <input type="checkbox" name="skill8" value="UX/UI"><label for="skill8">UX/UI</label>
+                            
+                        </div>
+                        <div class="textcols-item">
+                            <input type="checkbox" name="skill6" value="Python"><label for="skill6">Python</label>
+                            <input type="checkbox" name="skill9" value="PHP"><label for="skill9">PHP</label>
+                            <input type="checkbox" name="skill7" value="Django"><label for="skill7">Django</label>
+                        </div>
+
+                    <p>Выберите задачу</p>
+                    <div class="task">
+                        <input type="checkbox" name="task1" value="r1"><label for="task1">Создание запросов для получения аналитики на основе естественного языка</label>
+                        <input type="checkbox" name="task2" value="r1"><label for="task2">Разработка открытой платформы для мгновенного обмена сообщениями</label>
+                        <input type="checkbox" name="task3" value="r1"><label for="task3">Разработка моделей оценки студентов на основании открытых данных</label>
+                        <input type="checkbox" name="task4" value="r1"><label for="task4">Разработка механизма сборки и исполнения кода веб-приложения в рамках архитектуры micro frontend</label>
+                        <input type="checkbox" name="task5" value="r1"><label for="task5">Разработка механизма сборки и исполнения кода мобильных приложений в рамках микросервисной архитектуры</label>
+                        <input type="checkbox" name="task6" value="r1"><label for="task6">Разработка мобильного приложения для автоматической фиксации участия в спортивных мероприятиях</label>
+                    </div>
+
+                    <input type="submit" value="Отправить" class="form_rectangle">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>@PolyWeb Studio</p>
+    </footer>
+
+</body>
+</html>
